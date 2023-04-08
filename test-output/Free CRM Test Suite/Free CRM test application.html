@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Free CRM test application</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>2/0/9</td>
+<td>Tests passed/Failed/Skipped:</td><td>0/0/11</td>
 </tr><tr>
-<td>Started on:</td><td>Sat Apr 01 14:37:45 PKT 2023</td>
+<td>Started on:</td><td>Sat Apr 08 10:28:09 PKT 2023</td>
 </tr>
-<tr><td>Total time:</td><td>135 seconds (135494 ms)</td>
+<tr><td>Total time:</td><td>85 seconds (85006 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,14 +76,14 @@ function toggleAllBoxes() {
 </tr>
 <tr>
 <td title='testcase.LoginPageTest.setUp()'><b>setUp</b><br>Test class: testcase.LoginPageTest</td>
-<td><div><pre>org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 28.314
+<td><div><pre>org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 28.527
   (Session info: chrome=111.0.5563.64)
 Build info: version: &apos;4.7.2&apos;, revision: &apos;4d4020c3b7&apos;
 System info: os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.19.0-35-generic&apos;, java.version: &apos;11.0.18&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [e3d2bd37c7190ad1aace54f2d7cf927c, get {url=https://freecrm.com/}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.64, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: /tmp/.com.google.Chrome.aLY1WG}, goog:chromeOptions: {debuggerAddress: localhost:42541}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: LINUX, proxy: Proxy(), se:cdp: ws://localhost:42541/devtoo..., se:cdpVersion: 111.0.5563.64, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: e3d2bd37c7190ad1aace54f2d7cf927c
+Command: [3e669604200b77378694b0eb39d49516, get {url=https://freecrm.com/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.64, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: /tmp/.com.google.Chrome.qg7x2v}, goog:chromeOptions: {debuggerAddress: localhost:36637}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: LINUX, proxy: Proxy(), se:cdp: ws://localhost:36637/devtoo..., se:cdpVersion: 111.0.5563.64, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3e669604200b77378694b0eb39d49516
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
@@ -92,22 +92,19 @@ Session ID: e3d2bd37c7190ad1aace54f2d7cf927c
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:535)
 	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:296)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:106)
-	at com.sun.proxy.$Proxy15.get(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.get(EventFiringWebDriver.java:166)
-	at base.driver.TestBase.initialization(TestBase.java:59)
+	at base.driver.TestBase.initialization(TestBase.java:62)
 	at testcase.LoginPageTest.setUp(LoginPageTest.java:20)
 	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
 	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
-... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1905548224", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1905548224'><pre>org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 28.314
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1143371233", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1143371233'><pre>org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 28.527
   (Session info: chrome=111.0.5563.64)
 Build info: version: &apos;4.7.2&apos;, revision: &apos;4d4020c3b7&apos;
 System info: os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.19.0-35-generic&apos;, java.version: &apos;11.0.18&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [e3d2bd37c7190ad1aace54f2d7cf927c, get {url=https://freecrm.com/}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.64, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: /tmp/.com.google.Chrome.aLY1WG}, goog:chromeOptions: {debuggerAddress: localhost:42541}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: LINUX, proxy: Proxy(), se:cdp: ws://localhost:42541/devtoo..., se:cdpVersion: 111.0.5563.64, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: e3d2bd37c7190ad1aace54f2d7cf927c
+Command: [3e669604200b77378694b0eb39d49516, get {url=https://freecrm.com/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.64, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: /tmp/.com.google.Chrome.qg7x2v}, goog:chromeOptions: {debuggerAddress: localhost:36637}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: LINUX, proxy: Proxy(), se:cdp: ws://localhost:36637/devtoo..., se:cdpVersion: 111.0.5563.64, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3e669604200b77378694b0eb39d49516
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -120,14 +117,7 @@ Session ID: e3d2bd37c7190ad1aace54f2d7cf927c
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:535)
 	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:296)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:106)
-	at com.sun.proxy.$Proxy15.get(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.get(EventFiringWebDriver.java:166)
-	at base.driver.TestBase.initialization(TestBase.java:59)
+	at base.driver.TestBase.initialization(TestBase.java:62)
 	at testcase.LoginPageTest.setUp(LoginPageTest.java:20)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
@@ -156,7 +146,7 @@ Session ID: e3d2bd37c7190ad1aace54f2d7cf927c
 	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
 </pre></div></td>
 <td>0</td>
-<td>testcase.LoginPageTest@15b3e5b</td></tr>
+<td>testcase.LoginPageTest@543788f3</td></tr>
 <tr>
 <td title='testcase.HomePageTest.setUp()'><b>setUp</b><br>Test class: testcase.HomePageTest</td>
 <td><div><pre>org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 30.000
@@ -164,10 +154,10 @@ Session ID: e3d2bd37c7190ad1aace54f2d7cf927c
 Build info: version: &apos;4.7.2&apos;, revision: &apos;4d4020c3b7&apos;
 System info: os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.19.0-35-generic&apos;, java.version: &apos;11.0.18&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [930e77a9a37c7457e340792780abf997, clickElement {id=4395d68c-5fc0-4d24-a263-41cb783afc52}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.64, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: /tmp/.com.google.Chrome.AGL43R}, goog:chromeOptions: {debuggerAddress: localhost:41337}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: LINUX, proxy: Proxy(), se:cdp: ws://localhost:41337/devtoo..., se:cdpVersion: 111.0.5563.64, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on LINUX (930e77a9a37c7457e340792780abf997)] -&gt; xpath: //*[text()=&apos;Log In&apos;]]
-Session ID: 930e77a9a37c7457e340792780abf997
+Command: [88d28bb996742d91e196fb23b4ea553f, clickElement {id=5423e945-81da-475f-9161-c0ffbc8e163f}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.64, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: /tmp/.com.google.Chrome.7ITcyd}, goog:chromeOptions: {debuggerAddress: localhost:36209}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: LINUX, proxy: Proxy(), se:cdp: ws://localhost:36209/devtoo..., se:cdpVersion: 111.0.5563.64, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on LINUX (88d28bb996742d91e196fb23b4ea553f)] -&gt; xpath: //*[text()=&apos;Log In&apos;]]
+Session ID: 88d28bb996742d91e196fb23b4ea553f
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
@@ -177,25 +167,22 @@ Session ID: 930e77a9a37c7457e340792780abf997
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:535)
 	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
 	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
-	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:378)
-	at com.sun.proxy.$Proxy21.click(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:391)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
-	at com.sun.proxy.$Proxy20.click(Unknown Source)
+	at com.sun.proxy.$Proxy15.click(Unknown Source)
 	at pages.LoginPage.login(LoginPage.java:40)
-	at testcase.HomePageTest.setUp(HomePageTest.java:24)
+	at testcase.HomePageTest.setUp(HomePageTest.java:28)
 	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
 	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
-... Removed 35 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1517105378", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1517105378'><pre>org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 30.000
+... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace463215441", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace463215441'><pre>org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 30.000
   (Session info: chrome=111.0.5563.64)
 Build info: version: &apos;4.7.2&apos;, revision: &apos;4d4020c3b7&apos;
 System info: os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.19.0-35-generic&apos;, java.version: &apos;11.0.18&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [930e77a9a37c7457e340792780abf997, clickElement {id=4395d68c-5fc0-4d24-a263-41cb783afc52}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.64, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: /tmp/.com.google.Chrome.AGL43R}, goog:chromeOptions: {debuggerAddress: localhost:41337}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: LINUX, proxy: Proxy(), se:cdp: ws://localhost:41337/devtoo..., se:cdpVersion: 111.0.5563.64, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on LINUX (930e77a9a37c7457e340792780abf997)] -&gt; xpath: //*[text()=&apos;Log In&apos;]]
-Session ID: 930e77a9a37c7457e340792780abf997
+Command: [88d28bb996742d91e196fb23b4ea553f, clickElement {id=5423e945-81da-475f-9161-c0ffbc8e163f}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.64, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: /tmp/.com.google.Chrome.7ITcyd}, goog:chromeOptions: {debuggerAddress: localhost:36209}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: LINUX, proxy: Proxy(), se:cdp: ws://localhost:36209/devtoo..., se:cdpVersion: 111.0.5563.64, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on LINUX (88d28bb996742d91e196fb23b4ea553f)] -&gt; xpath: //*[text()=&apos;Log In&apos;]]
+Session ID: 88d28bb996742d91e196fb23b4ea553f
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -213,17 +200,10 @@ Session ID: 930e77a9a37c7457e340792780abf997
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:378)
-	at com.sun.proxy.$Proxy21.click(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:391)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
-	at com.sun.proxy.$Proxy20.click(Unknown Source)
+	at com.sun.proxy.$Proxy15.click(Unknown Source)
 	at pages.LoginPage.login(LoginPage.java:40)
-	at testcase.HomePageTest.setUp(HomePageTest.java:24)
+	at testcase.HomePageTest.setUp(HomePageTest.java:28)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -251,17 +231,18 @@ Session ID: 930e77a9a37c7457e340792780abf997
 	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
 </pre></div></td>
 <td>0</td>
-<td>testcase.HomePageTest@61ca2dfa</td></tr>
+<td>testcase.HomePageTest@6d3af739</td></tr>
 <tr>
 <td title='testcase.ContactPageTest.setUp()'><b>setUp</b><br>Test class: testcase.ContactPageTest</td>
-<td><div><pre>org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 28.664
+<td><div><pre>org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
   (Session info: chrome=111.0.5563.64)
 Build info: version: &apos;4.7.2&apos;, revision: &apos;4d4020c3b7&apos;
 System info: os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.19.0-35-generic&apos;, java.version: &apos;11.0.18&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [b7fa6ee9f18d5b76235d46d20380f69a, get {url=https://freecrm.com/}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.64, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: /tmp/.com.google.Chrome.nhh0yA}, goog:chromeOptions: {debuggerAddress: localhost:33641}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: LINUX, proxy: Proxy(), se:cdp: ws://localhost:33641/devtoo..., se:cdpVersion: 111.0.5563.64, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: b7fa6ee9f18d5b76235d46d20380f69a
+Command: [a6a66cf9e4b5d58d36ec4baf8fb55cd2, findElement {using=xpath, value=//*[text()=&apos;Log In&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.64, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: /tmp/.com.google.Chrome.IMmHFm}, goog:chromeOptions: {debuggerAddress: localhost:38537}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: LINUX, proxy: Proxy(), se:cdp: ws://localhost:38537/devtoo..., se:cdpVersion: 111.0.5563.64, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a6a66cf9e4b5d58d36ec4baf8fb55cd2
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
@@ -269,23 +250,27 @@ Session ID: b7fa6ee9f18d5b76235d46d20380f69a
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:535)
-	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:296)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:106)
-	at com.sun.proxy.$Proxy15.get(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.get(EventFiringWebDriver.java:166)
-	at base.driver.TestBase.initialization(TestBase.java:59)
-	at testcase.ContactPageTest.setUp(ContactPageTest.java:20)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:351)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:343)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+	at com.sun.proxy.$Proxy15.click(Unknown Source)
+	at pages.LoginPage.login(LoginPage.java:40)
+	at testcase.ContactPageTest.setUp(ContactPageTest.java:23)
 	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
 	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
-... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace117911771", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace117911771'><pre>org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 28.664
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1697441364", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1697441364'><pre>org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
   (Session info: chrome=111.0.5563.64)
 Build info: version: &apos;4.7.2&apos;, revision: &apos;4d4020c3b7&apos;
 System info: os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.19.0-35-generic&apos;, java.version: &apos;11.0.18&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [b7fa6ee9f18d5b76235d46d20380f69a, get {url=https://freecrm.com/}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.64, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: /tmp/.com.google.Chrome.nhh0yA}, goog:chromeOptions: {debuggerAddress: localhost:33641}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: LINUX, proxy: Proxy(), se:cdp: ws://localhost:33641/devtoo..., se:cdpVersion: 111.0.5563.64, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: b7fa6ee9f18d5b76235d46d20380f69a
+Command: [a6a66cf9e4b5d58d36ec4baf8fb55cd2, findElement {using=xpath, value=//*[text()=&apos;Log In&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.64, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: /tmp/.com.google.Chrome.IMmHFm}, goog:chromeOptions: {debuggerAddress: localhost:38537}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: LINUX, proxy: Proxy(), se:cdp: ws://localhost:38537/devtoo..., se:cdpVersion: 111.0.5563.64, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a6a66cf9e4b5d58d36ec4baf8fb55cd2
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -297,16 +282,15 @@ Session ID: b7fa6ee9f18d5b76235d46d20380f69a
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:535)
-	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:296)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:106)
-	at com.sun.proxy.$Proxy15.get(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.get(EventFiringWebDriver.java:166)
-	at base.driver.TestBase.initialization(TestBase.java:59)
-	at testcase.ContactPageTest.setUp(ContactPageTest.java:20)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:351)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:343)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+	at com.sun.proxy.$Proxy15.click(Unknown Source)
+	at pages.LoginPage.login(LoginPage.java:40)
+	at testcase.ContactPageTest.setUp(ContactPageTest.java:23)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -334,7 +318,7 @@ Session ID: b7fa6ee9f18d5b76235d46d20380f69a
 	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
 </pre></div></td>
 <td>0</td>
-<td>testcase.ContactPageTest@4b53f538</td></tr>
+<td>testcase.ContactPageTest@1da51a35</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-skipped'>
 <tr><td colspan='4' align='center'><b>SKIPPED CONFIGURATIONS</b></td></tr>
@@ -344,98 +328,100 @@ Session ID: b7fa6ee9f18d5b76235d46d20380f69a
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='testcase.HomePageTest.setUp()'><b>setUp</b><br>Test class: testcase.HomePageTest</td>
+<td title='testcase.LoginPageTest.setUp()'><b>setUp</b><br>Test class: testcase.LoginPageTest</td>
 <td></td>
 <td>0</td>
-<td>testcase.HomePageTest@61ca2dfa</td></tr>
+<td>testcase.LoginPageTest@543788f3</td></tr>
+<tr>
+<td title='testcase.LoginPageTest.setUp()'><b>setUp</b><br>Test class: testcase.LoginPageTest</td>
+<td></td>
+<td>0</td>
+<td>testcase.LoginPageTest@543788f3</td></tr>
 <tr>
 <td title='testcase.HomePageTest.setUp()'><b>setUp</b><br>Test class: testcase.HomePageTest</td>
 <td></td>
 <td>0</td>
-<td>testcase.HomePageTest@61ca2dfa</td></tr>
+<td>testcase.HomePageTest@6d3af739</td></tr>
 <tr>
 <td title='testcase.HomePageTest.setUp()'><b>setUp</b><br>Test class: testcase.HomePageTest</td>
 <td></td>
 <td>0</td>
-<td>testcase.HomePageTest@61ca2dfa</td></tr>
+<td>testcase.HomePageTest@6d3af739</td></tr>
 <tr>
 <td title='testcase.HomePageTest.setUp()'><b>setUp</b><br>Test class: testcase.HomePageTest</td>
 <td></td>
 <td>0</td>
-<td>testcase.HomePageTest@61ca2dfa</td></tr>
+<td>testcase.HomePageTest@6d3af739</td></tr>
+<tr>
+<td title='testcase.HomePageTest.setUp()'><b>setUp</b><br>Test class: testcase.HomePageTest</td>
+<td></td>
+<td>0</td>
+<td>testcase.HomePageTest@6d3af739</td></tr>
 <tr>
 <td title='testcase.ContactPageTest.setUp()'><b>setUp</b><br>Test class: testcase.ContactPageTest</td>
 <td></td>
 <td>0</td>
-<td>testcase.ContactPageTest@4b53f538</td></tr>
+<td>testcase.ContactPageTest@1da51a35</td></tr>
 <tr>
 <td title='testcase.ContactPageTest.setUp()'><b>setUp</b><br>Test class: testcase.ContactPageTest</td>
 <td></td>
 <td>0</td>
-<td>testcase.ContactPageTest@4b53f538</td></tr>
+<td>testcase.ContactPageTest@1da51a35</td></tr>
 <tr>
 <td title='testcase.LoginPageTest.tearDown()'><b>tearDown</b><br>Test class: testcase.LoginPageTest</td>
 <td></td>
 <td>0</td>
-<td>testcase.LoginPageTest@15b3e5b</td></tr>
+<td>testcase.LoginPageTest@543788f3</td></tr>
+<tr>
+<td title='testcase.LoginPageTest.tearDown()'><b>tearDown</b><br>Test class: testcase.LoginPageTest</td>
+<td></td>
+<td>0</td>
+<td>testcase.LoginPageTest@543788f3</td></tr>
+<tr>
+<td title='testcase.LoginPageTest.tearDown()'><b>tearDown</b><br>Test class: testcase.LoginPageTest</td>
+<td></td>
+<td>0</td>
+<td>testcase.LoginPageTest@543788f3</td></tr>
 <tr>
 <td title='testcase.HomePageTest.tearDown()'><b>tearDown</b><br>Test class: testcase.HomePageTest</td>
 <td></td>
 <td>0</td>
-<td>testcase.HomePageTest@61ca2dfa</td></tr>
+<td>testcase.HomePageTest@6d3af739</td></tr>
 <tr>
 <td title='testcase.HomePageTest.tearDown()'><b>tearDown</b><br>Test class: testcase.HomePageTest</td>
 <td></td>
 <td>0</td>
-<td>testcase.HomePageTest@61ca2dfa</td></tr>
+<td>testcase.HomePageTest@6d3af739</td></tr>
 <tr>
 <td title='testcase.HomePageTest.tearDown()'><b>tearDown</b><br>Test class: testcase.HomePageTest</td>
 <td></td>
 <td>0</td>
-<td>testcase.HomePageTest@61ca2dfa</td></tr>
+<td>testcase.HomePageTest@6d3af739</td></tr>
 <tr>
 <td title='testcase.HomePageTest.tearDown()'><b>tearDown</b><br>Test class: testcase.HomePageTest</td>
 <td></td>
 <td>0</td>
-<td>testcase.HomePageTest@61ca2dfa</td></tr>
+<td>testcase.HomePageTest@6d3af739</td></tr>
 <tr>
 <td title='testcase.HomePageTest.tearDown()'><b>tearDown</b><br>Test class: testcase.HomePageTest</td>
 <td></td>
 <td>0</td>
-<td>testcase.HomePageTest@61ca2dfa</td></tr>
+<td>testcase.HomePageTest@6d3af739</td></tr>
 <tr>
 <td title='testcase.ContactPageTest.tearDown()'><b>tearDown</b><br>Test class: testcase.ContactPageTest</td>
 <td></td>
 <td>0</td>
-<td>testcase.ContactPageTest@4b53f538</td></tr>
+<td>testcase.ContactPageTest@1da51a35</td></tr>
 <tr>
 <td title='testcase.ContactPageTest.tearDown()'><b>tearDown</b><br>Test class: testcase.ContactPageTest</td>
 <td></td>
 <td>0</td>
-<td>testcase.ContactPageTest@4b53f538</td></tr>
+<td>testcase.ContactPageTest@1da51a35</td></tr>
 <tr>
 <td title='testcase.ContactPageTest.tearDown()'><b>tearDown</b><br>Test class: testcase.ContactPageTest</td>
 <td></td>
 <td>0</td>
-<td>testcase.ContactPageTest@4b53f538</td></tr>
-</table><p>
-<table width='100%' border='1' class='invocation-passed'>
-<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
-<tr>
-<td title='testcase.LoginPageTest.crmLogoTest()'><b>crmLogoTest</b><br>Test class: testcase.LoginPageTest</td>
-<td></td>
-<td>0</td>
-<td>testcase.LoginPageTest@15b3e5b</td></tr>
-<tr>
-<td title='testcase.LoginPageTest.loginPageTitleTest()'><b>loginPageTitleTest</b><br>Test class: testcase.LoginPageTest</td>
-<td></td>
-<td>0</td>
-<td>testcase.LoginPageTest@15b3e5b</td></tr>
+<td>testcase.ContactPageTest@1da51a35</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-skipped'>
 <tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
@@ -445,50 +431,60 @@ Session ID: b7fa6ee9f18d5b76235d46d20380f69a
 <td><b>Instance</b></td>
 </tr>
 <tr>
+<td title='testcase.LoginPageTest.crmLogoTest()'><b>crmLogoTest</b><br>Test class: testcase.LoginPageTest</td>
+<td></td>
+<td>0</td>
+<td>testcase.LoginPageTest@543788f3</td></tr>
+<tr>
+<td title='testcase.LoginPageTest.loginPageTitleTest()'><b>loginPageTitleTest</b><br>Test class: testcase.LoginPageTest</td>
+<td></td>
+<td>0</td>
+<td>testcase.LoginPageTest@543788f3</td></tr>
+<tr>
 <td title='testcase.LoginPageTest.loginTest()'><b>loginTest</b><br>Test class: testcase.LoginPageTest</td>
 <td></td>
 <td>0</td>
-<td>testcase.LoginPageTest@15b3e5b</td></tr>
+<td>testcase.LoginPageTest@543788f3</td></tr>
 <tr>
 <td title='testcase.ContactPageTest.tearDown()'><b>tearDown</b><br>Test class: testcase.ContactPageTest</td>
 <td></td>
 <td>0</td>
-<td>testcase.ContactPageTest@4b53f538</td></tr>
+<td>testcase.ContactPageTest@1da51a35</td></tr>
 <tr>
 <td title='testcase.ContactPageTest.validateAddToContactForm()'><b>validateAddToContactForm</b><br>Test class: testcase.ContactPageTest</td>
 <td></td>
 <td>0</td>
-<td>testcase.ContactPageTest@4b53f538</td></tr>
+<td>testcase.ContactPageTest@1da51a35</td></tr>
 <tr>
 <td title='testcase.HomePageTest.validateContactPageTest()'><b>validateContactPageTest</b><br>Test class: testcase.HomePageTest</td>
 <td></td>
 <td>0</td>
-<td>testcase.HomePageTest@61ca2dfa</td></tr>
+<td>testcase.HomePageTest@6d3af739</td></tr>
 <tr>
 <td title='testcase.HomePageTest.validateDealPageTest()'><b>validateDealPageTest</b><br>Test class: testcase.HomePageTest</td>
 <td></td>
 <td>0</td>
-<td>testcase.HomePageTest@61ca2dfa</td></tr>
+<td>testcase.HomePageTest@6d3af739</td></tr>
 <tr>
 <td title='testcase.HomePageTest.validateTaskPageTest()'><b>validateTaskPageTest</b><br>Test class: testcase.HomePageTest</td>
 <td></td>
 <td>0</td>
-<td>testcase.HomePageTest@61ca2dfa</td></tr>
+<td>testcase.HomePageTest@6d3af739</td></tr>
 <tr>
 <td title='testcase.HomePageTest.veifyCorrectUserNameTest()'><b>veifyCorrectUserNameTest</b><br>Test class: testcase.HomePageTest</td>
 <td></td>
 <td>0</td>
-<td>testcase.HomePageTest@61ca2dfa</td></tr>
+<td>testcase.HomePageTest@6d3af739</td></tr>
 <tr>
 <td title='testcase.ContactPageTest.verifyContactLabel()'><b>verifyContactLabel</b><br>Test class: testcase.ContactPageTest</td>
 <td></td>
 <td>0</td>
-<td>testcase.ContactPageTest@4b53f538</td></tr>
+<td>testcase.ContactPageTest@1da51a35</td></tr>
 <tr>
 <td title='testcase.HomePageTest.verifyHomePageTitleTest()'><b>verifyHomePageTitleTest</b><br>Test class: testcase.HomePageTest</td>
 <td></td>
 <td>0</td>
-<td>testcase.HomePageTest@61ca2dfa</td></tr>
+<td>testcase.HomePageTest@6d3af739</td></tr>
 </table><p>
 </body>
 </html>

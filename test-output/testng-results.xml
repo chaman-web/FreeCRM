@@ -1,57 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results total="11" passed="2" failed="0" skipped="9">
+<testng-results total="11" passed="0" failed="0" skipped="11">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-04-01T09:37:45Z" name="Free CRM Test Suite" finished-at="2023-04-01T09:40:01Z" duration-ms="135494">
+  <suite started-at="2023-04-08T05:28:09Z" name="Free CRM Test Suite" finished-at="2023-04-08T05:29:34Z" duration-ms="85006">
     <groups>
     </groups>
-    <test started-at="2023-04-01T09:37:45Z" name="Free CRM test application" finished-at="2023-04-01T09:40:01Z" duration-ms="135494">
+    <test started-at="2023-04-08T05:28:09Z" name="Free CRM test application" finished-at="2023-04-08T05:29:34Z" duration-ms="85006">
       <class name="testcase.LoginPageTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testcase.LoginPageTest@15b3e5b]" started-at="2023-04-01T14:37:45Z" name="setUp" finished-at="2023-04-01T14:38:03Z" duration-ms="17171" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="loginPageTitleTest()[pri:1, instance:testcase.LoginPageTest@15b3e5b]" started-at="2023-04-01T14:38:03Z" name="loginPageTitleTest" finished-at="2023-04-01T14:38:03Z" duration-ms="16" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginPageTitleTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcase.LoginPageTest@15b3e5b]" started-at="2023-04-01T14:38:03Z" name="tearDown" finished-at="2023-04-01T14:38:03Z" duration-ms="131" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testcase.LoginPageTest@15b3e5b]" started-at="2023-04-01T14:38:03Z" name="setUp" finished-at="2023-04-01T14:38:13Z" duration-ms="9801" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="crmLogoTest()[pri:2, instance:testcase.LoginPageTest@15b3e5b]" started-at="2023-04-01T14:38:13Z" name="crmLogoTest" finished-at="2023-04-01T14:38:13Z" duration-ms="85" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- crmLogoTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcase.LoginPageTest@15b3e5b]" started-at="2023-04-01T14:38:13Z" name="tearDown" finished-at="2023-04-01T14:38:13Z" duration-ms="138" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testcase.LoginPageTest@15b3e5b]" started-at="2023-04-01T14:38:13Z" name="setUp" finished-at="2023-04-01T14:38:13Z" duration-ms="0" status="FAIL">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcase.LoginPageTest@543788f3]" started-at="2023-04-08T10:28:09Z" name="setUp" finished-at="2023-04-08T10:28:09Z" duration-ms="0" status="FAIL">
           <exception class="org.openqa.selenium.TimeoutException">
             <message>
-              <![CDATA[timeout: Timed out receiving message from renderer: 28.314
+              <![CDATA[timeout: Timed out receiving message from renderer: 28.527
   (Session info: chrome=111.0.5563.64)
 Build info: version: '4.7.2', revision: '4d4020c3b7'
 System info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.19.0-35-generic', java.version: '11.0.18'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [e3d2bd37c7190ad1aace54f2d7cf927c, get {url=https://freecrm.com/}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.64, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: /tmp/.com.google.Chrome.aLY1WG}, goog:chromeOptions: {debuggerAddress: localhost:42541}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: LINUX, proxy: Proxy(), se:cdp: ws://localhost:42541/devtoo..., se:cdpVersion: 111.0.5563.64, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: e3d2bd37c7190ad1aace54f2d7cf927c]]>
+Command: [3e669604200b77378694b0eb39d49516, get {url=https://freecrm.com/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.64, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: /tmp/.com.google.Chrome.qg7x2v}, goog:chromeOptions: {debuggerAddress: localhost:36637}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: LINUX, proxy: Proxy(), se:cdp: ws://localhost:36637/devtoo..., se:cdpVersion: 111.0.5563.64, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3e669604200b77378694b0eb39d49516]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 28.314
+              <![CDATA[org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 28.527
   (Session info: chrome=111.0.5563.64)
 Build info: version: '4.7.2', revision: '4d4020c3b7'
 System info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.19.0-35-generic', java.version: '11.0.18'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [e3d2bd37c7190ad1aace54f2d7cf927c, get {url=https://freecrm.com/}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.64, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: /tmp/.com.google.Chrome.aLY1WG}, goog:chromeOptions: {debuggerAddress: localhost:42541}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: LINUX, proxy: Proxy(), se:cdp: ws://localhost:42541/devtoo..., se:cdpVersion: 111.0.5563.64, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: e3d2bd37c7190ad1aace54f2d7cf927c
+Command: [3e669604200b77378694b0eb39d49516, get {url=https://freecrm.com/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.64, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: /tmp/.com.google.Chrome.qg7x2v}, goog:chromeOptions: {debuggerAddress: localhost:36637}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: LINUX, proxy: Proxy(), se:cdp: ws://localhost:36637/devtoo..., se:cdpVersion: 111.0.5563.64, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3e669604200b77378694b0eb39d49516
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -64,14 +40,7 @@ Session ID: e3d2bd37c7190ad1aace54f2d7cf927c
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:535)
 	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:296)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:106)
-	at com.sun.proxy.$Proxy15.get(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.get(EventFiringWebDriver.java:166)
-	at base.driver.TestBase.initialization(TestBase.java:59)
+	at base.driver.TestBase.initialization(TestBase.java:62)
 	at testcase.LoginPageTest.setUp(LoginPageTest.java:20)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
@@ -104,17 +73,41 @@ Session ID: e3d2bd37c7190ad1aace54f2d7cf927c
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="loginTest()[pri:3, instance:testcase.LoginPageTest@15b3e5b]" started-at="2023-04-01T14:38:44Z" name="loginTest" finished-at="2023-04-01T14:38:44Z" duration-ms="0" status="SKIP">
+        <test-method signature="loginPageTitleTest()[pri:1, instance:testcase.LoginPageTest@543788f3]" started-at="2023-04-08T10:28:44Z" name="loginPageTitleTest" finished-at="2023-04-08T10:28:44Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageTitleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcase.LoginPageTest@543788f3]" started-at="2023-04-08T10:28:44Z" name="tearDown" finished-at="2023-04-08T10:28:44Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcase.LoginPageTest@543788f3]" started-at="2023-04-08T10:28:44Z" name="setUp" finished-at="2023-04-08T10:28:44Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="crmLogoTest()[pri:2, instance:testcase.LoginPageTest@543788f3]" started-at="2023-04-08T10:28:44Z" name="crmLogoTest" finished-at="2023-04-08T10:28:44Z" duration-ms="1" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- crmLogoTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcase.LoginPageTest@543788f3]" started-at="2023-04-08T10:28:44Z" name="tearDown" finished-at="2023-04-08T10:28:44Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcase.LoginPageTest@543788f3]" started-at="2023-04-08T10:28:44Z" name="setUp" finished-at="2023-04-08T10:28:44Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginTest()[pri:3, instance:testcase.LoginPageTest@543788f3]" started-at="2023-04-08T10:28:44Z" name="loginTest" finished-at="2023-04-08T10:28:44Z" duration-ms="1" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcase.LoginPageTest@15b3e5b]" started-at="2023-04-01T14:38:44Z" name="tearDown" finished-at="2023-04-01T14:38:44Z" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcase.LoginPageTest@543788f3]" started-at="2023-04-08T10:28:44Z" name="tearDown" finished-at="2023-04-08T10:28:44Z" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testcase.LoginPageTest -->
       <class name="testcase.HomePageTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testcase.HomePageTest@61ca2dfa]" started-at="2023-04-01T14:38:44Z" name="setUp" finished-at="2023-04-01T14:38:44Z" duration-ms="0" status="FAIL">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcase.HomePageTest@6d3af739]" started-at="2023-04-08T10:28:44Z" name="setUp" finished-at="2023-04-08T10:28:44Z" duration-ms="0" status="FAIL">
           <exception class="org.openqa.selenium.TimeoutException">
             <message>
               <![CDATA[timeout: Timed out receiving message from renderer: 30.000
@@ -122,10 +115,10 @@ Session ID: e3d2bd37c7190ad1aace54f2d7cf927c
 Build info: version: '4.7.2', revision: '4d4020c3b7'
 System info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.19.0-35-generic', java.version: '11.0.18'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [930e77a9a37c7457e340792780abf997, clickElement {id=4395d68c-5fc0-4d24-a263-41cb783afc52}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.64, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: /tmp/.com.google.Chrome.AGL43R}, goog:chromeOptions: {debuggerAddress: localhost:41337}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: LINUX, proxy: Proxy(), se:cdp: ws://localhost:41337/devtoo..., se:cdpVersion: 111.0.5563.64, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on LINUX (930e77a9a37c7457e340792780abf997)] -> xpath: //*[text()='Log In']]
-Session ID: 930e77a9a37c7457e340792780abf997]]>
+Command: [88d28bb996742d91e196fb23b4ea553f, clickElement {id=5423e945-81da-475f-9161-c0ffbc8e163f}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.64, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: /tmp/.com.google.Chrome.7ITcyd}, goog:chromeOptions: {debuggerAddress: localhost:36209}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: LINUX, proxy: Proxy(), se:cdp: ws://localhost:36209/devtoo..., se:cdpVersion: 111.0.5563.64, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on LINUX (88d28bb996742d91e196fb23b4ea553f)] -> xpath: //*[text()='Log In']]
+Session ID: 88d28bb996742d91e196fb23b4ea553f]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 30.000
@@ -133,10 +126,10 @@ Session ID: 930e77a9a37c7457e340792780abf997]]>
 Build info: version: '4.7.2', revision: '4d4020c3b7'
 System info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.19.0-35-generic', java.version: '11.0.18'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [930e77a9a37c7457e340792780abf997, clickElement {id=4395d68c-5fc0-4d24-a263-41cb783afc52}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.64, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: /tmp/.com.google.Chrome.AGL43R}, goog:chromeOptions: {debuggerAddress: localhost:41337}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: LINUX, proxy: Proxy(), se:cdp: ws://localhost:41337/devtoo..., se:cdpVersion: 111.0.5563.64, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on LINUX (930e77a9a37c7457e340792780abf997)] -> xpath: //*[text()='Log In']]
-Session ID: 930e77a9a37c7457e340792780abf997
+Command: [88d28bb996742d91e196fb23b4ea553f, clickElement {id=5423e945-81da-475f-9161-c0ffbc8e163f}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.64, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: /tmp/.com.google.Chrome.7ITcyd}, goog:chromeOptions: {debuggerAddress: localhost:36209}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: LINUX, proxy: Proxy(), se:cdp: ws://localhost:36209/devtoo..., se:cdpVersion: 111.0.5563.64, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on LINUX (88d28bb996742d91e196fb23b4ea553f)] -> xpath: //*[text()='Log In']]
+Session ID: 88d28bb996742d91e196fb23b4ea553f
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -154,17 +147,10 @@ Session ID: 930e77a9a37c7457e340792780abf997
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:378)
-	at com.sun.proxy.$Proxy21.click(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:391)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
-	at com.sun.proxy.$Proxy20.click(Unknown Source)
+	at com.sun.proxy.$Proxy15.click(Unknown Source)
 	at pages.LoginPage.login(LoginPage.java:40)
-	at testcase.HomePageTest.setUp(HomePageTest.java:24)
+	at testcase.HomePageTest.setUp(HomePageTest.java:28)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -196,85 +182,87 @@ Session ID: 930e77a9a37c7457e340792780abf997
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyHomePageTitleTest()[pri:1, instance:testcase.HomePageTest@61ca2dfa]" started-at="2023-04-01T14:39:29Z" name="verifyHomePageTitleTest" finished-at="2023-04-01T14:39:29Z" duration-ms="2" status="SKIP">
+        <test-method signature="verifyHomePageTitleTest()[pri:1, instance:testcase.HomePageTest@6d3af739]" started-at="2023-04-08T10:29:24Z" name="verifyHomePageTitleTest" finished-at="2023-04-08T10:29:24Z" duration-ms="4" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyHomePageTitleTest -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testcase.HomePageTest@61ca2dfa]" started-at="2023-04-01T14:39:29Z" name="setUp" finished-at="2023-04-01T14:39:29Z" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcase.HomePageTest@6d3af739]" started-at="2023-04-08T10:29:24Z" name="tearDown" finished-at="2023-04-08T10:29:24Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcase.HomePageTest@6d3af739]" started-at="2023-04-08T10:29:24Z" name="setUp" finished-at="2023-04-08T10:29:24Z" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="veifyCorrectUserNameTest()[pri:2, instance:testcase.HomePageTest@61ca2dfa]" started-at="2023-04-01T14:39:29Z" name="veifyCorrectUserNameTest" finished-at="2023-04-01T14:39:29Z" duration-ms="1" status="SKIP">
+        <test-method signature="veifyCorrectUserNameTest()[pri:2, instance:testcase.HomePageTest@6d3af739]" started-at="2023-04-08T10:29:24Z" name="veifyCorrectUserNameTest" finished-at="2023-04-08T10:29:24Z" duration-ms="1" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- veifyCorrectUserNameTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcase.HomePageTest@61ca2dfa]" started-at="2023-04-01T14:39:29Z" name="tearDown" finished-at="2023-04-01T14:39:29Z" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcase.HomePageTest@6d3af739]" started-at="2023-04-08T10:29:24Z" name="tearDown" finished-at="2023-04-08T10:29:24Z" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcase.HomePageTest@61ca2dfa]" started-at="2023-04-01T14:39:29Z" name="tearDown" finished-at="2023-04-01T14:39:29Z" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testcase.HomePageTest@61ca2dfa]" started-at="2023-04-01T14:39:29Z" name="setUp" finished-at="2023-04-01T14:39:29Z" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcase.HomePageTest@6d3af739]" started-at="2023-04-08T10:29:24Z" name="setUp" finished-at="2023-04-08T10:29:24Z" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="validateContactPageTest()[pri:3, instance:testcase.HomePageTest@61ca2dfa]" started-at="2023-04-01T14:39:29Z" name="validateContactPageTest" finished-at="2023-04-01T14:39:29Z" duration-ms="1" status="SKIP">
+        <test-method signature="validateContactPageTest()[pri:3, instance:testcase.HomePageTest@6d3af739]" started-at="2023-04-08T10:29:24Z" name="validateContactPageTest" finished-at="2023-04-08T10:29:24Z" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateContactPageTest -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testcase.HomePageTest@61ca2dfa]" started-at="2023-04-01T14:39:29Z" name="setUp" finished-at="2023-04-01T14:39:29Z" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcase.HomePageTest@61ca2dfa]" started-at="2023-04-01T14:39:29Z" name="tearDown" finished-at="2023-04-01T14:39:29Z" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcase.HomePageTest@6d3af739]" started-at="2023-04-08T10:29:24Z" name="tearDown" finished-at="2023-04-08T10:29:24Z" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method signature="validateDealPageTest()[pri:4, instance:testcase.HomePageTest@61ca2dfa]" started-at="2023-04-01T14:39:29Z" name="validateDealPageTest" finished-at="2023-04-01T14:39:29Z" duration-ms="1" status="SKIP">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcase.HomePageTest@6d3af739]" started-at="2023-04-08T10:29:24Z" name="tearDown" finished-at="2023-04-08T10:29:24Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcase.HomePageTest@6d3af739]" started-at="2023-04-08T10:29:24Z" name="setUp" finished-at="2023-04-08T10:29:24Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateDealPageTest()[pri:4, instance:testcase.HomePageTest@6d3af739]" started-at="2023-04-08T10:29:24Z" name="validateDealPageTest" finished-at="2023-04-08T10:29:24Z" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateDealPageTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcase.HomePageTest@61ca2dfa]" started-at="2023-04-01T14:39:29Z" name="tearDown" finished-at="2023-04-01T14:39:29Z" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method signature="validateTaskPageTest()[pri:5, instance:testcase.HomePageTest@61ca2dfa]" started-at="2023-04-01T14:39:29Z" name="validateTaskPageTest" finished-at="2023-04-01T14:39:29Z" duration-ms="0" status="SKIP">
+        <test-method signature="validateTaskPageTest()[pri:5, instance:testcase.HomePageTest@6d3af739]" started-at="2023-04-08T10:29:24Z" name="validateTaskPageTest" finished-at="2023-04-08T10:29:24Z" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateTaskPageTest -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testcase.HomePageTest@61ca2dfa]" started-at="2023-04-01T14:39:29Z" name="setUp" finished-at="2023-04-01T14:39:29Z" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcase.HomePageTest@61ca2dfa]" started-at="2023-04-01T14:39:29Z" name="tearDown" finished-at="2023-04-01T14:39:29Z" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcase.HomePageTest@6d3af739]" started-at="2023-04-08T10:29:24Z" name="tearDown" finished-at="2023-04-08T10:29:24Z" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcase.HomePageTest@6d3af739]" started-at="2023-04-08T10:29:24Z" name="setUp" finished-at="2023-04-08T10:29:24Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
       </class> <!-- testcase.HomePageTest -->
       <class name="testcase.ContactPageTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testcase.ContactPageTest@4b53f538]" started-at="2023-04-01T14:39:29Z" name="setUp" finished-at="2023-04-01T14:39:29Z" duration-ms="0" status="FAIL">
-          <exception class="org.openqa.selenium.TimeoutException">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcase.ContactPageTest@1da51a35]" started-at="2023-04-08T10:29:24Z" name="setUp" finished-at="2023-04-08T10:29:24Z" duration-ms="0" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchWindowException">
             <message>
-              <![CDATA[timeout: Timed out receiving message from renderer: 28.664
+              <![CDATA[no such window: target window already closed
+from unknown error: web view not found
   (Session info: chrome=111.0.5563.64)
 Build info: version: '4.7.2', revision: '4d4020c3b7'
 System info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.19.0-35-generic', java.version: '11.0.18'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [b7fa6ee9f18d5b76235d46d20380f69a, get {url=https://freecrm.com/}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.64, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: /tmp/.com.google.Chrome.nhh0yA}, goog:chromeOptions: {debuggerAddress: localhost:33641}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: LINUX, proxy: Proxy(), se:cdp: ws://localhost:33641/devtoo..., se:cdpVersion: 111.0.5563.64, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: b7fa6ee9f18d5b76235d46d20380f69a]]>
+Command: [a6a66cf9e4b5d58d36ec4baf8fb55cd2, findElement {using=xpath, value=//*[text()='Log In']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.64, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: /tmp/.com.google.Chrome.IMmHFm}, goog:chromeOptions: {debuggerAddress: localhost:38537}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: LINUX, proxy: Proxy(), se:cdp: ws://localhost:38537/devtoo..., se:cdpVersion: 111.0.5563.64, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a6a66cf9e4b5d58d36ec4baf8fb55cd2]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 28.664
+              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
   (Session info: chrome=111.0.5563.64)
 Build info: version: '4.7.2', revision: '4d4020c3b7'
 System info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.19.0-35-generic', java.version: '11.0.18'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [b7fa6ee9f18d5b76235d46d20380f69a, get {url=https://freecrm.com/}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.64, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: /tmp/.com.google.Chrome.nhh0yA}, goog:chromeOptions: {debuggerAddress: localhost:33641}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: LINUX, proxy: Proxy(), se:cdp: ws://localhost:33641/devtoo..., se:cdpVersion: 111.0.5563.64, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: b7fa6ee9f18d5b76235d46d20380f69a
+Command: [a6a66cf9e4b5d58d36ec4baf8fb55cd2, findElement {using=xpath, value=//*[text()='Log In']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.64, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: /tmp/.com.google.Chrome.IMmHFm}, goog:chromeOptions: {debuggerAddress: localhost:38537}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: LINUX, proxy: Proxy(), se:cdp: ws://localhost:38537/devtoo..., se:cdpVersion: 111.0.5563.64, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a6a66cf9e4b5d58d36ec4baf8fb55cd2
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -286,16 +274,15 @@ Session ID: b7fa6ee9f18d5b76235d46d20380f69a
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:535)
-	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:296)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:106)
-	at com.sun.proxy.$Proxy15.get(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.get(EventFiringWebDriver.java:166)
-	at base.driver.TestBase.initialization(TestBase.java:59)
-	at testcase.ContactPageTest.setUp(ContactPageTest.java:20)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:351)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:343)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+	at com.sun.proxy.$Proxy15.click(Unknown Source)
+	at pages.LoginPage.login(LoginPage.java:40)
+	at testcase.ContactPageTest.setUp(ContactPageTest.java:23)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -323,42 +310,42 @@ Session ID: b7fa6ee9f18d5b76235d46d20380f69a
 	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="tearDown()[pri:0, instance:testcase.ContactPageTest@4b53f538]" started-at="2023-04-01T14:40:01Z" name="tearDown" finished-at="2023-04-01T14:40:01Z" duration-ms="0" status="SKIP">
+        <test-method signature="tearDown()[pri:0, instance:testcase.ContactPageTest@1da51a35]" started-at="2023-04-08T10:29:34Z" name="tearDown" finished-at="2023-04-08T10:29:34Z" duration-ms="1" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcase.ContactPageTest@4b53f538]" started-at="2023-04-01T14:40:01Z" name="tearDown" finished-at="2023-04-01T14:40:01Z" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcase.ContactPageTest@4b53f538]" started-at="2023-04-01T14:40:01Z" name="tearDown" finished-at="2023-04-01T14:40:01Z" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testcase.ContactPageTest@4b53f538]" started-at="2023-04-01T14:40:01Z" name="setUp" finished-at="2023-04-01T14:40:01Z" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcase.ContactPageTest@1da51a35]" started-at="2023-04-08T10:29:34Z" name="setUp" finished-at="2023-04-08T10:29:34Z" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testcase.ContactPageTest@4b53f538]" started-at="2023-04-01T14:40:01Z" name="setUp" finished-at="2023-04-01T14:40:01Z" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcase.ContactPageTest@1da51a35]" started-at="2023-04-08T10:29:34Z" name="tearDown" finished-at="2023-04-08T10:29:34Z" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="verifyContactLabel()[pri:1, instance:testcase.ContactPageTest@4b53f538]" started-at="2023-04-01T14:40:01Z" name="verifyContactLabel" finished-at="2023-04-01T14:40:01Z" duration-ms="0" status="SKIP">
+        </test-method> <!-- tearDown -->
+        <test-method signature="verifyContactLabel()[pri:1, instance:testcase.ContactPageTest@1da51a35]" started-at="2023-04-08T10:29:34Z" name="verifyContactLabel" finished-at="2023-04-08T10:29:34Z" duration-ms="21" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyContactLabel -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcase.ContactPageTest@4b53f538]" started-at="2023-04-01T14:40:01Z" name="tearDown" finished-at="2023-04-01T14:40:01Z" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcase.ContactPageTest@1da51a35]" started-at="2023-04-08T10:29:34Z" name="tearDown" finished-at="2023-04-08T10:29:34Z" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method signature="validateAddToContactForm()[pri:2, instance:testcase.ContactPageTest@4b53f538]" started-at="2023-04-01T14:40:01Z" name="validateAddToContactForm" finished-at="2023-04-01T14:40:01Z" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcase.ContactPageTest@1da51a35]" started-at="2023-04-08T10:29:34Z" name="setUp" finished-at="2023-04-08T10:29:34Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateAddToContactForm()[pri:2, instance:testcase.ContactPageTest@1da51a35]" started-at="2023-04-08T10:29:34Z" name="validateAddToContactForm" finished-at="2023-04-08T10:29:34Z" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateAddToContactForm -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcase.ContactPageTest@1da51a35]" started-at="2023-04-08T10:29:34Z" name="tearDown" finished-at="2023-04-08T10:29:34Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
       </class> <!-- testcase.ContactPageTest -->
     </test> <!-- Free CRM test application -->
   </suite> <!-- Free CRM Test Suite -->

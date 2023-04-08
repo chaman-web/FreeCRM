@@ -13,6 +13,14 @@
   </test> <!-- Free CRM test application -->
   <test name="Free CRM test application(failed)">
     <classes>
+      <class name="testcase.ContactPageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="verifyContactLabel"/>
+          <include name="setUp"/>
+          <include name="validateAddToContactForm"/>
+        </methods>
+      </class> <!-- testcase.ContactPageTest -->
       <class name="testcase.HomePageTest">
         <methods>
           <include name="validateContactPageTest"/>
@@ -23,19 +31,12 @@
           <include name="setUp"/>
         </methods>
       </class> <!-- testcase.HomePageTest -->
-      <class name="testcase.ContactPageTest">
-        <methods>
-          <include name="tearDown"/>
-          <include name="verifyContactLabel"/>
-          <include name="setUp"/>
-          <include name="validateAddToContactForm"/>
-        </methods>
-      </class> <!-- testcase.ContactPageTest -->
       <class name="testcase.LoginPageTest">
         <methods>
+          <include name="loginPageTitleTest"/>
+          <include name="crmLogoTest"/>
           <include name="loginTest"/>
           <include name="setUp"/>
-          <include name="tearDown"/>
         </methods>
       </class> <!-- testcase.LoginPageTest -->
     </classes>
